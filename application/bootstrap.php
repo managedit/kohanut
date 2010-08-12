@@ -67,11 +67,19 @@ Kohana::$config->attach(new Kohana_Config_File);
  * Enable modules. Modules are referenced by a relative or absolute path.
  */
 Kohana::modules(array(
-	'database'    => MODPATH.'database',
-	'sprig'       => MODPATH.'sprig',
-	'sprig-mptt'  => MODPATH.'sprig-mptt',
-	'kohanut'     => MODPATH.'kohanut',
-	'userguide'   => MODPATH.'userguide',
+	// Kohana Modules
+	'event'            => MODPATH.'event',
+	'dbforge'          => MODPATH.'dbforge',
+	'database'         => MODPATH.'database',
+	'sprig'            => MODPATH.'sprig',
+	'sprig-mptt'       => MODPATH.'sprig-mptt',
+	'sprig-migration'  => MODPATH.'sprig-migration',
+	'image'            => MODPATH.'image',
+	'userguide'        => MODPATH.'userguide',
+	// Kohanut Core
+	'kohanut'          => MODPATH.'kohanut',
+	// Kohanut Plugins
+	'kohanut-images'   => MODPATH.'kohanut-images',
 ));
 
 /**
