@@ -29,7 +29,7 @@ ini_set('unserialize_callback_func', 'spl_autoload_call');
 /**
  * Set the production status
  */
-define('IN_PRODUCTION',FALSE);
+Kohana::$environment = 'development';
 
 //-- Configuration and initialization -----------------------------------------
 
@@ -47,10 +47,10 @@ define('IN_PRODUCTION',FALSE);
  * - boolean  caching	 enable or disable internal caching				 FALSE
  */
 Kohana::init(array(
-	'base_url'   => '/',
+	'base_url'   => '/kohanut',
 	'index_file' => FALSE,
-	'profiling'  => ! IN_PRODUCTION,
-	'caching'    => IN_PRODUCTION,
+	'profiling'  => (Kohana::$environment == 'development'),
+	'caching'    => (Kohana::$environment == 'production'),
 ));
 
 /**

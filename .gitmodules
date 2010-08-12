@@ -12,7 +12,7 @@
 	url = git://github.com/shadowhand/sprig.git
 [submodule "modules/kohanut"]
 	path = modules/kohanut
-	url = git://github.com/bluehawk/kohanut-core
+	url = git://github.com/managedit/kohanut-core.git
 [submodule "modules/userguide"]
 	path = modules/userguide
 	url = git://github.com/kohana/userguide
@@ -24,7 +24,7 @@
 	url = git://github.com/managedit/migration.git
 [submodule "modules/dbforge"]
 	path = modules/dbforge
-	url = git@github.com:managedit/dbforge.git
+	url = git://github.com/managedit/dbforge.git
 [submodule "modules/image"]
 	path = modules/image
 	url = git://github.com/kohana/image.git

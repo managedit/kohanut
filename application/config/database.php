@@ -17,11 +17,11 @@ return array
 			 * boolean  persistent
 			 * string   database
 			 */
-			'hostname'   => 'localhost',
-			'username'   => 'kohanut3',
-			'password'   => 'r30kE9k3m90oeKo',
+			'hostname'   => '10.2.1.1',
+			'username'   => 'dev',
+			'password'   => 'dev',
 			'persistent' => FALSE,
-			'database'   => 'kohanut3',
+			'database'   => 'kohanut',
 		),
 		'table_prefix' => '',
 		'charset'      => 'utf8',
