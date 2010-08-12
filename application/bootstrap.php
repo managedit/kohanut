@@ -79,15 +79,13 @@ Kohana::modules(array(
 	// Kohanut Core
 	'kohanut'          => MODPATH.'kohanut',
 	// Kohanut Plugins
-	'kohanut-images'   => MODPATH.'kohanut-images',
+	'kohanut-image'   => MODPATH.'kohanut-image',
 ));
 
 /**
  * Set the routes. Each route must have a minimum of a name, a URI and a set of
  * defaults for the URI.
  */
-
-
 Route::set('default', '(<controller>(/<action>(/<id>)))')
 	->defaults(array(
 		'controller' => 'welcome',

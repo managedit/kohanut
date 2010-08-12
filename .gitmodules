@@ -28,3 +28,6 @@
 [submodule "modules/image"]
 	path = modules/image
 	url = git://github.com/kohana/image.git
+[submodule "modules/kohanut-image"]
+	path = modules/kohanut-image
+	url = git://github.com/managedit/kohanut-image.git
