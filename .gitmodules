@@ -16,3 +16,15 @@
 [submodule "modules/userguide"]
 	path = modules/userguide
 	url = git://github.com/kohana/userguide
+[submodule "modules/event"]
+	path = modules/event
+	url = git://github.com/Zeelot/event.git
+[submodule "modules/sprig-migration"]
+	path = modules/sprig-migration
+	url = git://github.com/managedit/migration.git
+[submodule "modules/dbforge"]
+	path = modules/dbforge
+	url = git@github.com:managedit/dbforge.git
+[submodule "modules/image"]
+	path = modules/image
+	url = git://github.com/kohana/image.git
